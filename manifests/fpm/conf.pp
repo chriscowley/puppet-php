@@ -24,7 +24,7 @@ define php::fpm::conf (
   $listen_owner = undef,
   $listen_group = undef,
   $listen_mode = undef,
-  $user = 'apache',
+  $user = 'nginx',
   $group = undef,
   $pm = 'dynamic',
   $pm_max_children = '50',
